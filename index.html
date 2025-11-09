@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Mi Marca</a>
+                <ul class="nav-links">
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#about">Sobre nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h1>Impulsa tu negocio con soluciones digitales</h1>
+                <p>Descubre herramientas diseñadas para hacer crecer tu presencia en línea y conectar con tus clientes de forma efectiva.</p>
+                <a class="cta" href="#contact">Comienza ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="section features">
+            <div class="container grid">
+                <article class="feature-card">
+                    <h2>Estrategias Personalizadas</h2>
+                    <p>Diseñamos planes adaptados a tus objetivos para maximizar resultados y optimizar recursos.</p>
+                </article>
+                <article class="feature-card">
+                    <h2>Automatización Inteligente</h2>
+                    <p>Simplifica tus procesos y mejora la eficiencia con soluciones automatizadas fáciles de implementar.</p>
+                </article>
+                <article class="feature-card">
+                    <h2>Soporte Continuo</h2>
+                    <p>Te acompañamos en cada etapa con asesoría especializada y seguimiento continuo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>¿Por qué elegirnos?</h2>
+                <p>
+                    Somos un equipo multidisciplinario comprometido con impulsar proyectos digitales a través de una mezcla equilibrada de estrategia, creatividad y tecnología.
+                    Nuestra misión es ayudarte a alcanzar tus metas con soluciones escalables y orientadas a resultados.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contacta con nosotros</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Cuéntanos sobre tu proyecto" required></textarea>
+                    </div>
+                    <button type="submit" class="cta secondary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Mi Marca. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
